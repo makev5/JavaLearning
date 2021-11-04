@@ -4,9 +4,6 @@ public class Student {
     private int age;                // 年龄
     private String sex;             // 性别
 
-    public void show(){
-        System.out.println("大家好，我是"+ getName() + ",学号是：" + getStudentNumber() + ",性别：" + getSex() + ",今年" + getAge() +"岁。");
-    }
     public String getName() {
         return name;
     }
@@ -30,5 +27,8 @@ public class Student {
     }
     public void setSex(String sex) {
         this.sex = sex;
+    }
+    public void show(){
+        System.out.println("大家好，我是"+ getName() + ",学号是：" + getStudentNumber() + ",性别：" + getSex() + ",今年" + getAge() +"岁。");
     }
 }
