@@ -6,5 +6,5 @@
 - 百钱买百鸡  [戳我直达](./homework/Chicken.java ) 
 - 随机点名  [戳我直达](./homework/随机点名/StudentDemo.java ) 
 - 面向对象（Animal）  [戳我直达](./homework/Animal ) 
-- 面向对象（Person）  [戳我直达](./homework/Person ) 
+- 面向对象（奥运）  [戳我直达](./homework/Sport ) 
 
