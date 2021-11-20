@@ -31,28 +31,22 @@ public class Code {
     // 定义一个生成验证码的方法
     public static String getCode() {
         Random random = new Random();
-        // 大写
-        StringBuilder AZ = new StringBuilder();
-        // 小写
-        StringBuilder az = new StringBuilder();
-        // 数字
-        StringBuilder number = new StringBuilder();
+
+        StringBuilder sb = new StringBuilder();
         //A-Z 65-90 得到大写的字符串
         for (char i = 65; i <= 90; i++) {
-            AZ.append(i);
+            sb.append(i);
         }
         // a-z 97-122 得到小写的字符串
         for (char i = 97; i <= 122; i++) {
-            az.append(i);
+            sb.append(i);
         }
         // 得到0-9的字符串
         for (int i = 0; i <= 9; i++) {
-            number.append(i);
+            sb.append(i);
         }
-        // 拼接大小写字母和数字
-        String codeStr = AZ.toString() + az.toString() + number.toString();
         // 字符串转char数组
-        char[] c = codeStr.toCharArray();
+        char[] c = sb.toCharArray();
         // 0-61
         // random.nextInt 该值介于[0,n)的区间，也就是0到n之间的随机int值，包含0而不包含n。
         String code = "";
