@@ -12,6 +12,6 @@
 - 字符串排序  [戳我直达](./homework/StrSort.java ) 
 - 验证码  [戳我直达](./homework/Code.java ) 
 - IO流（copy）  [戳我直达](./homework/Copy.java ) 
-- ListTest   [戳我直达](./homework/ListDemo.java ) 
-- ListTest2 [戳我直达](./homework/StudentTest.java) 
+- ListTest   [戳我直达](./homework/list/ListDemo.java ) 
+- ListTest2 [戳我直达](./homework/list/StudentTest.java) 
 
